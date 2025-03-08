@@ -7,6 +7,9 @@
 # return true if and only if x is prime, false otherwise
 # assume n is an integer
 def isPrime(n):
+    # Check divisibility for all values from 2 to n-1 inclusive
+    # Although this is not a good algorithm, use this for simplicity
+    return False
 
 
 
@@ -17,3 +20,4 @@ def isPrime(n):
 def nthPrime(n):
     # Loop through values and check if they are prime until you find n of them
     # Use your isPrime function to check if a number is prime
+    return -1
